@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+#logo {
+    width: 10vw;
+}
+
+#searchnav {
+    width: 2vw;
+}
+
+.menu {
+    color: rgb(102, 113, 117);
+    text-decoration: none;
+    margin: 30px;
+    font-weight: 600;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+    height: 80vh;
+}
+
+.mainsection {
+    width: 100%;
+    height: 64%;
+    background-image: url(https://demo.smartaddons.com/templates/joomla3/sj-idoctor/images/2017/03/23/2.jpg);
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section {
+    width: 100%;
+    height: 36%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(111, 121, 124);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section1,
+.section2,
+.section3 {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.section1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #4292dd;
+    ;
+}
+
+.section2 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#button1,
+#button2 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #33fd9f #000 #06d780;
+    border-radius: 20px;
+    background: linear-gradient(#16f7ac, #14e7a1) #14e7a1;
+    transition: 0.2s;
+}
+
+#button1:hover,
+#button2:hover {
+    background: linear-gradient(#57ebb9, #32f1b2) #57ebb9;
+}
+
+#button1:active,
+#button2:active {
+    background: linear-gradient(#32f1b2, #57ebb9) #32f1b2;
+}
+
+aside {
+    width: 25%;
+    background-color: #50aaff;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgba(244, 244, 244, 1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    text-decoration: none;
+    color: rgb(169, 178, 184);
+}
+
+#headfooter {
+    width: 100vw;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#headfooter2 {
+    width: 100vw;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.footermenu {
+    text-decoration: none;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 80px;
+    color: rgb(109, 112, 129);
+}
+
+#cardiology,
+#diagnostics,
+#medicalsurgery,
+#dentalcare {
+    width: 60px;
+}

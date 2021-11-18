@@ -1,0 +1,182 @@
+body {
+    background-color: #FFF2E1;
+    border-radius: 50px;
+}
+
+#logo {
+    width: 4vw;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #113C49;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+
+.menu {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    padding: 10px;
+}
+
+label {
+    color: rgb(75, 75, 75);
+    padding: 10px;
+}
+
+header {
+    margin: 30px 30px 0 30px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 0 0 80px;
+}
+
+.flex-container1 {
+    margin: 90px 0 0 0;
+}
+
+.container1 {
+    margin: 20px;
+    width: 40vw;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 81px;
+    color: #F48C06;
+}
+
+.text {
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 160%;
+    color: #464646;
+}
+
+.flex-container3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: Poppins;
+    font-size: 17px;
+    color: #464646;
+}
+
+a.container3 {
+    width: 20%;
+    margin: 20px;
+}
+
+img.container3 {
+    width: 30%;
+}
+
+button {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: #F48C06;
+    padding: .7em 1.5em;
+    border-style: solid none;
+    border-color: #F48C06;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+button:hover {
+    background: #f8a840;
+}
+
+button:active {
+    background: #d87d06;
+}
+
+.flex-container2 {
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.group-img {
+    position: absolute;
+    width: 10%;
+}
+
+#group7 {
+    width: 13%;
+    position: absolute;
+    top: 300px;
+    right: 35vw;
+}
+
+#group10 {
+    width: 15%;
+    position: absolute;
+    top: 440px;
+    right: 8vw;
+}
+
+#group13 {
+    width: 17%;
+    position: absolute;
+    top: 520px;
+    right: 33vw;
+}
+
+footer {
+    background-color: white;
+}
+
+h2 {
+    margin: 5% 35% 20px 35%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.flex-container4 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex {
+    width: 7%;
+    margin: 30px;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(92, 92, 92, 0.06);
+}
