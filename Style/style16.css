@@ -1,0 +1,178 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 6% 1fr 15%;
+    gap: 2px;
+}
+
+header,
+footer {
+    grid-column: 1/4;
+}
+
+#logo {
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    top: 30px;
+    left: 30px;
+}
+
+header {
+    display: grid;
+    grid-template-rows: min-content;
+    justify-content: end;
+    align-content: center;
+    background-color: rgb(22, 35, 48);
+}
+
+.menu {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-image: url('../assets/images/travelling.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 10% 1fr 1fr;
+    gap: 2px;
+}
+
+h1,
+h2 {
+    grid-column: 1/3;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    justify-self: center;
+    align-self: center;
+}
+
+h3 {
+    color: rgb(153, 181, 211);
+}
+
+.article1 {
+    grid-area: 3/1/4/2;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300;
+}
+
+#outdoors-cars {
+    width: 60%;
+    border-radius: 10px;
+}
+
+#outdoors {
+    color: rgb(250, 232, 173);
+    background-color: rgb(22, 35, 48);
+    padding: 3px;
+}
+
+span {
+    color: rgb(153, 181, 211)
+}
+
+.article2 {
+    grid-area: 3/2/4/3;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300;
+    background-color: rgb(22, 35, 48);
+    padding: 10px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#read {
+    color: white;
+}
+
+.article3 {
+    grid-area: 4/1/5/3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300;
+    color: white;
+}
+
+.article1,
+.article3 {
+    align-self: center;
+}
+
+button {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(22, 35, 48);
+    padding: .7em 1.5em;
+    outline: none;
+}
+
+button:hover {
+    background: rgb(16, 26, 36);
+}
+
+button:active {
+    background: rgb(62, 75, 99);
+}
+
+.aside {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300;
+    background-color: rgb(175, 201, 216);
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% repeat(autofit, 1fr);
+}
+
+#browse-cars {
+    grid-row: 1/2;
+    justify-self: center;
+
+}
+
+.offer1 {
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+.offer2 {
+    grid-row: 3/4;
+    justify-self: center;
+}
+
+.offer3 {
+    grid-row: 4/5;
+    justify-self: center;
+}
+
+#browse-cars {
+    color: rgb(22, 35, 48);
+    font-size: 20px;
+}
+
+.offer {
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(22, 35, 48);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(241, 241, 241);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.seo-pages {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
